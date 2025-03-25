@@ -97,11 +97,11 @@ button {
 
 .btn3 {
     background-color: #fff;
-    color: #331bcb;
+    color: #e85e0e;
     transition: all 0.3s linear;
 }
 
 .btn3:hover {
-    background-color: #331bcb;
+    background-color: #e85e0e;
     color: #fff;
 }

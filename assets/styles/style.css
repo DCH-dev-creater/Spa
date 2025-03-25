@@ -1,0 +1,95 @@
+.card {
+    margin: 100px auto;
+    width: 1470px;
+    height: 863px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.28);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F1;
+}
+
+.card-text {
+    width: 564px;
+    height: 444px;
+    display: grid;
+    gap: 25px;
+
+}
+
+.welcom {
+    font-size: 24px;
+    font-weight: 400;
+    color: #313131; 
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: #091605;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F584C;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+    width: 166px;
+    height: 42px;
+    border: 2px solid #708817;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.card-image {
+    background-image: url('../img/spa.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 20px 20px 0;
+}
+
+.card-text>div {
+    margin-top: 75px;
+    display: flex;
+    gap: 9px;
+}
+
+
+.btn1 {
+    background-color: #708817;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.btn1:hover {
+    background-color: #fff;
+    color: #708817;
+}
+
+.btn2 {
+    background-color: #fff;
+    color: #708817;
+    transition: all 0.3s linear;
+}
+
+.btn2:hover {
+    background-color: #708817;
+    color: #fff;
+}
